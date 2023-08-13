@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+:root {
+    --main-bg-color: #0ea7af;
+    ;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    background-color: var(--main-bg-color);
+    /* text-decoration: none; */
+
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    padding: 0 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    height: 10vh;
+    align-items: center;
+    /* text-decoration: none; */
+}
+
+nav ul li {
+    text-decoration: none;
+    padding: 0 23px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    /* color: rgb(121, 38, 38); */
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+  
+}
+
+.search input {
+    width: 30vw;
+    height: 30px;
+    border-radius: 3px;
+    margin: 0 10px 0 70px;
+}
+
+.slider {
+    margin: 12px auto;
+    width: 78vw;
+    overflow: hidden;
+}
+
+.card {
+    /* background: red; */
+    max-width: 93vw;
+    margin: 37px auto;
+    overflow: hidden;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 35px;
+    width: 12vw;
+}
+.card h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    min-height: calc(100vh - 10vh - 12vh);
+}
+
+footer {
+    background: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
